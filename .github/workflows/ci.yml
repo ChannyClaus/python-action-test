@@ -17,4 +17,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.py }}
-      - run: python --version
+      - run: ${{ matrix.py }} --version

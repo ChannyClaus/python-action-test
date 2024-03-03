@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  example_matrix:
+  Explore-GitHub-Actions:
     strategy:
       matrix:
         py:
@@ -11,7 +11,6 @@ jobs:
           - "3.10"
           - "3.11"
           - "3.12"
-  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
